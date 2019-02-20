@@ -1,0 +1,281 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body,head{
+	font-family: 微軟正黑體;
+}
+.clearfix{
+  clear: both;
+}
+.wrap{
+	width: 1024px;
+	margin: 0 auto;
+}
+/*頁首*/
+.header{
+	background-color: #353535;
+	opacity: 0.9;
+	z-index: 1;
+	position: absolute;
+	width: 1024px;
+}
+.header_logo a{
+	display: block;
+	float: left;
+	width: 170px;
+	height: 36px;
+	background-image: url(..//image/header_logo.png);
+	text-indent: 101%;
+	overflow: hidden;
+	white-space: nowrap;
+	margin:19.25px 37px 19.25px 37px;
+}
+.header_menu{
+	float:right;
+	margin-right:14.125px;
+}
+.header_menu li{
+	float: left;
+}
+.header_menu li a{
+	display: block;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 21px;
+	padding-left: 22.875px;
+	padding-right: 22.875px;
+	padding-bottom: 21.25px;
+	padding-top: 24px;
+}
+.header_menu li a:hover{
+	color:#00cc99;
+	border-bottom: 7px solid #00cc99;
+}
+.question_banner{
+	position: relative;
+	width: 1024px;
+	height: 550px;
+	background-image: url(..//image/question_banner.png);
+	z-index: 0;
+}
+.question_banner_paragraph{
+	position: relative;
+	top: 164px;
+}
+.question_banner_paragraph-1{
+	text-align: center;
+}
+.question_banner_paragraph-1 p{
+	color:#00cc99;
+	font-size: 28px;
+	line-height: 70px;
+}
+.question_banner_paragraph-1 span{
+	color: white;
+	font-size: 50px;
+}
+.question_banner_paragraph a{
+	position: relative;
+	padding: 30px;
+	bottom:42px;
+	left:750px;
+}
+.banner_form_question{
+	width: 620px;
+	height: 52px;
+	border-radius: 10px;
+	font-size: 16px;
+}
+/*內容*/
+.content{
+	width: 814px;
+	margin:0px auto 58px auto;
+}
+.content p{
+	line-height: 28px;
+}
+.content_title{
+	font-size: 36px;
+	color: #00cc99;
+	font-weight: bold;
+	margin-top: 52px;
+}
+.content_subtitle{
+	font-size: 20px;
+	color: rgba(0,0,0,0.4);
+}
+.content_question{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 30.75px;
+}
+.content_answer{
+	font-size: 16px;
+	font-weight: bold;
+	color: rgba(0,0,0,0.4);
+}
+.content_answer_mail{
+	color: #00cc99;
+}
+.content_payment_staging_process{
+	margin-left:50px;
+	list-style-type: decimal;
+}
+.content_payment_staging_process li{
+	line-height: 28px;
+	color: rgba(0,0,0,0.4);
+	font-weight: bold;
+}
+.content_payment_refund_process{
+	margin-left:50px;
+	list-style-type: disc;
+}
+.content_payment_refund_process li{
+	line-height: 28px;
+	color: rgba(0,0,0,0.4);
+	font-weight: bold;
+}
+/*留言*/
+.message{
+	background-color: rgba(0,0,0,0.05);
+	height: 598px;
+	/*opacity: 0.6;*/
+}
+.message p{
+	float: left;
+	margin-left: 37px;
+	padding-bottom: 120px;
+	padding-top: 120px;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 60px;
+}
+.message_form{
+	float: right;
+	margin-right: 37px;
+	margin-top: 125px;
+}
+.message_form_submit{
+	width: 140px;
+	font-size: 16px;
+	padding: 10px;
+	float: right;
+	border-radius: 5px;
+	font-weight: bold;
+	background-color: #00cc99;
+	color: white;
+	border: 0px solid #00cc99;
+	cursor: pointer;
+}
+.message_form_name{
+	width: 400px;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	margin-bottom: 10px;
+	font-family: 微軟正黑體;
+	border: 0px solid #00cc99;
+}
+.message_form_mail{
+	width: 400px;
+	font-size: 20px;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	font-family: 微軟正黑體;
+	border: 0px solid #00cc99;
+}
+.message_form_question {
+	width: 400px;
+	font-size: 20px;
+	padding: 10px 10px 200px 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	font-family: 微軟正黑體;
+	border: 0px solid #00cc99;
+}
+/*頁尾*/
+.footer{
+	background-color: #353535;
+	opacity: 0.9;
+}
+.footer_logo img{
+	padding: 17.25px 37px 17.25px 37px;
+}
+.footer_community{
+	float: right;
+	margin-right: 37px;
+}
+.footer_community li{
+	float: left;
+}
+.footer_community li a{
+	display: block;
+	padding-left: 45.75px;
+	padding-top:28.5px;
+	padding-bottom: 28.5px;
+}
+.footer_fb{
+	display: inline-block;
+}
+.footer_tw{
+	display: inline-block;
+}
+.footer_ig{
+	display: inline-block;
+}
+.footer_community li a span{
+	position: absolute;
+	visibility: hidden;
+	color: white;
+}
+.footer_fb:hover .footer_fb_display{
+	visibility: visible;
+}
+.footer_tw:hover .footer_tw_display{
+	visibility: visible;
+}
+.footer_ig:hover .footer_ig_display{
+	visibility: visible;
+	font-size: 14px;
+}

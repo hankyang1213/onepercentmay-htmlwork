@@ -1,0 +1,170 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body,head{
+	font-family: 微軟正黑體;
+}
+.clearfix{
+  clear: both;
+}
+.wrap{
+	width: 1024px;
+	margin: 0 auto;
+}
+/*頁首*/
+.header{
+	background-color: #353535;
+	opacity: 0.9;
+	z-index: 1;
+	position: absolute;
+	width: 1024px;
+}
+.header_logo a{
+	display: block;
+	float: left;
+	width: 170px;
+	height: 36px;
+	background-image: url(..//image/header_logo.png);
+	text-indent: 101%;
+	overflow: hidden;
+	white-space: nowrap;
+	margin:17.25px 37px 17.25px 37px;
+}
+.header_menu{
+	float:right;
+	margin-right:14.125px;
+}
+.header_menu li{
+	float: left;
+}
+.header_menu li a{
+	display: block;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 21px;
+	padding-left: 22.875px;
+	padding-right: 22.875px;
+	padding-bottom: 21.25px;
+	padding-top: 24px;
+}
+.header_menu li a:hover{
+	color:#00cc99;
+	border-bottom: 7px solid #00cc99;
+}
+.banner{
+	position: relative;
+	width: 1024px;
+	height: 550px;
+	background-image: url(..//image/header_banner.png);
+	z-index: 0;
+}
+.banner_paragraph{
+	position: relative;
+	top: 180px;
+	margin-left: 37px;
+}
+.banner_paragraph p{
+	color:#00cc99;
+	font-size: 50px;
+	line-height: 70px;
+}
+.banner_paragraph p span{
+	color: white;
+}
+.banner_paragraph a{
+	display: block;
+	margin-top:30px;
+	width: 170px;
+	padding:13px 35px 13px 35px;
+	color: white;
+	text-decoration: none;
+	font-size: 26px;
+	background-color: #00cc99;
+	border-radius: 10px;
+}
+/*頁尾*/
+.footer{
+	background-color: #353535;
+	opacity: 0.9;
+	margin-top:20px;
+}
+.footer_logo img{
+	padding: 17.25px 37px 17.25px 37px;
+}
+.footer_community{
+	float: right;
+	margin-right: 37px;
+}
+.footer_community li{
+	float: left;
+}
+.footer_community li a{
+	display: block;
+	padding-left: 45.75px;
+	padding-top:28.5px;
+	padding-bottom: 28.5px;
+}
+.footer_fb{
+	display: inline-block;
+}
+.footer_tw{
+	display: inline-block;
+}
+.footer_ig{
+	display: inline-block;
+}
+.footer_community li a span{
+	position: absolute;
+	visibility: hidden;
+	color: white;
+}
+.footer_fb:hover .footer_fb_display{
+	visibility: visible;
+}
+.footer_tw:hover .footer_tw_display{
+	visibility: visible;
+}
+.footer_ig:hover .footer_ig_display{
+	visibility: visible;
+	font-size: 14px;
+}
